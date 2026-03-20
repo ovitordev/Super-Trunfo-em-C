@@ -99,6 +99,7 @@ int main() {
 
 //Resultado da comparações
 
+/*
     printf("\nResultado das Comparações: n° 1 caso a Carta 1 seja a vencedora e n° 0 caso a Carta 2 seja a vencedora");
     printf("\nPopulação: %d", (populacao1 > populacao2));
     printf("\nÁrea: %d", (area1 > area2));
@@ -107,6 +108,16 @@ int main() {
     printf("\nDensidade Populacional: %d", (densidade1 < densidade2));
     printf("\nPIB per Capita: %d", (pibpcapita1 > pibpcapita2));
     printf("\nSuper Poder: %d", (super1 > super2));
+*/
+
+//Comparação utilizando estruturas de decisão if-else
+
+    printf("\nComparação do Atributo População:");
+    if (populacao1 > populacao2) {
+        printf("\nResultado: Carta 1 (%s) venceu!", nome1);
+    }else{
+        printf("\nResultado: Carta 2 (%s) venceu!", nome2);
+    }
 
     return 0;
 }
